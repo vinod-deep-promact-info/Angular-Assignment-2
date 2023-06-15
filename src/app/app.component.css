@@ -1,0 +1,61 @@
+.carousel {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.carousel img {
+  width: 400px;
+  height: 300px;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.carousel-caption h4 {
+  margin: 0;
+}
+
+.slide-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.slide-list ul {
+  list-style-type: disc;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+.slide-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.slide-list .slide-thumbnail {
+  width: 40px;
+  height: 40px;
+}
+
+
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
